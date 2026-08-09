@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useApp } from '../../context/AppContext';
 import { Venue } from '../../types';
-import { handleImageError } from '../../utils/imageUtils';
+import { handleImageError, getFallbackImageForUrl } from '../../utils/imageUtils';
 import {
   MapPin,
   Star,
@@ -100,14 +100,16 @@ export const RecommendedVenues: React.FC = () => {
             >
               {/* Image & Badges Banner */}
               <div className="relative h-52 w-full overflow-hidden bg-slate-100">
-                {venue.images.length > 0 && (
-                  <img
-                    src={venue.images[0]}
-                    alt={venue.name}
-                    className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
-                    onError={handleImageError}
-                  />
-                )}
+                <img
+                  src={
+                    venue.images && venue.images.length > 0
+                      ? venue.images[0]
+                      : getFallbackImageForUrl(venue.id, venue.sportCategories?.[0])
+                  }
+                  alt={venue.name}
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                  onError={handleImageError}
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent" />
 
                 {/* Top badges */}

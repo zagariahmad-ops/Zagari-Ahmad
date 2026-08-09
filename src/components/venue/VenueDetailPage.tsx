@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { handleImageError } from '../../utils/imageUtils';
+import { handleImageError, getFallbackImageForUrl } from '../../utils/imageUtils';
 import { useApp } from '../../context/AppContext';
 import {
   Venue,
@@ -184,14 +184,16 @@ export const VenueDetailPage: React.FC = () => {
         {/* Photo Gallery Grid */}
         <div className="grid grid-cols-1 gap-3 overflow-hidden rounded-2xl md:grid-cols-3">
           <div className="relative h-72 w-full md:col-span-2 md:h-96 bg-slate-100">
-            {selectedVenue.images.length > 0 && (
-              <img
-                src={selectedVenue.images[mainImageIndex] || selectedVenue.images[0]}
-                alt={selectedVenue.name}
-                className="h-full w-full object-cover object-center transition-opacity duration-300"
-                onError={handleImageError}
-              />
-            )}
+            <img
+              src={
+                selectedVenue.images && selectedVenue.images.length > 0
+                  ? selectedVenue.images[mainImageIndex] || selectedVenue.images[0]
+                  : getFallbackImageForUrl(selectedVenue.id, selectedVenue.sportCategories?.[0])
+              }
+              alt={selectedVenue.name}
+              className="h-full w-full object-cover object-center transition-opacity duration-300"
+              onError={handleImageError}
+            />
             {selectedVenue.isPromo && (
               <div className="absolute left-4 top-4 rounded-full bg-emerald-600 px-3 py-1 text-xs font-bold text-white shadow">
                 {selectedVenue.promoBadge || 'Diskon Aktif'}
@@ -560,6 +562,7 @@ export const VenueDetailPage: React.FC = () => {
                             src={rev.userAvatar}
                             alt={rev.userName}
                             className="h-8 w-8 rounded-full object-cover"
+                            onError={handleImageError}
                           />
                           <div>
                             <div className="text-xs font-bold text-slate-900">{rev.userName}</div>

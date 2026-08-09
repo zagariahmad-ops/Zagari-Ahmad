@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { handleImageError } from '../../utils/imageUtils';
+import { handleImageError, getFallbackImageForUrl } from '../../utils/imageUtils';
 import { useApp } from '../../context/AppContext';
 import {
   Venue,
@@ -397,14 +397,16 @@ export const ExplorePage: React.FC = () => {
                     <div className="absolute bottom-6 left-6 right-6 z-30 mx-auto max-w-md rounded-2xl border border-slate-200 bg-white p-4 shadow-2xl">
                       <div className="flex items-start justify-between gap-3">
                         <div className="flex items-center gap-3">
-                          {selectedPinVenue.images.length > 0 && (
-                            <img
-                              src={selectedPinVenue.images[0]}
-                              alt={selectedPinVenue.name}
-                              className="h-16 w-16 rounded-xl object-cover"
-                              onError={handleImageError}
-                            />
-                          )}
+                          <img
+                            src={
+                              selectedPinVenue.images && selectedPinVenue.images.length > 0
+                                ? selectedPinVenue.images[0]
+                                : getFallbackImageForUrl(selectedPinVenue.id, selectedPinVenue.sportCategories?.[0])
+                            }
+                            alt={selectedPinVenue.name}
+                            className="h-16 w-16 rounded-xl object-cover"
+                            onError={handleImageError}
+                          />
                           <div>
                             <h3 className="text-sm font-black text-slate-900">
                               {selectedPinVenue.name}
@@ -465,14 +467,16 @@ export const ExplorePage: React.FC = () => {
                     >
                       {/* Image */}
                       <div className="relative h-52 w-full shrink-0 overflow-hidden bg-slate-100 sm:h-auto sm:w-64">
-                        {venue.images.length > 0 && (
-                          <img
-                            src={venue.images[0]}
-                            alt={venue.name}
-                            className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
-                            onError={handleImageError}
-                          />
-                        )}
+                        <img
+                          src={
+                            venue.images && venue.images.length > 0
+                              ? venue.images[0]
+                              : getFallbackImageForUrl(venue.id, venue.sportCategories?.[0])
+                          }
+                          alt={venue.name}
+                          className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                          onError={handleImageError}
+                        />
                         <div className="absolute left-3 top-3 flex gap-1">
                           {venue.isPromo && (
                             <span className="rounded-full bg-emerald-600 px-2.5 py-1 text-[10px] font-bold text-white shadow">

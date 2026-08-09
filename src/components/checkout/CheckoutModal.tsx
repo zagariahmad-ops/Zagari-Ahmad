@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useApp } from '../../context/AppContext';
+import { getFallbackImageForUrl, handleImageError } from '../../utils/imageUtils';
 import {
   PaymentMethodType,
   Booking,
@@ -81,7 +82,7 @@ export const CheckoutModal: React.FC = () => {
         venueId: activeBookingDraft.venueId,
         venueName: venue?.name || 'Venue Olahraga',
         venueAddress: venue?.address || 'Jakarta',
-        venueImage: venue?.images[0] || '',
+        venueImage: venue?.images[0] || getFallbackImageForUrl(venue?.name || '', activeBookingDraft.sportCategory),
         sportCategory: activeBookingDraft.sportCategory,
         items: activeBookingDraft.items,
         totalPrice: subtotal,

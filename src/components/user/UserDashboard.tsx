@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { handleImageError } from '../../utils/imageUtils';
+import { handleImageError, getFallbackImageForUrl } from '../../utils/imageUtils';
 import { useApp } from '../../context/AppContext';
 import {
   Booking,
@@ -224,16 +224,12 @@ export const UserDashboard: React.FC = () => {
 
                 <div className="flex flex-col justify-between gap-4 p-5 sm:flex-row sm:items-center">
                   <div className="flex items-start gap-4">
-                    {booking.venueImage ? (
-                      <img
-                        src={booking.venueImage}
-                        alt={booking.venueName}
-                        className="h-20 w-20 rounded-xl object-cover bg-slate-100"
-                        onError={handleImageError}
-                      />
-                    ) : (
-                      <div className="h-20 w-20 rounded-xl bg-slate-100 shrink-0" />
-                    )}
+                    <img
+                      src={booking.venueImage || getFallbackImageForUrl(booking.venueName, booking.sportCategory)}
+                      alt={booking.venueName}
+                      className="h-20 w-20 rounded-xl object-cover bg-slate-100 shrink-0"
+                      onError={handleImageError}
+                    />
                     <div>
                       <span className="rounded bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-800">
                         {booking.sportCategory}
