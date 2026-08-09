@@ -374,7 +374,10 @@
     "distanceKm": 1.2,
     "description": "Running track berkualitas tinggi yang mengelilingi stadion utama.",
     "openingHours": "06:00 - 20:00 WIB",
-    "images": [],
+    "images": [
+      "/images/atletik-1.jpeg",
+      "/images/atletik-2.jpeg"
+    ],
     "rating": 4.9,
     "reviewCount": 130,
     "facilities": [
