@@ -99,56 +99,61 @@ export const RecommendedVenues: React.FC = () => {
               className="group relative flex cursor-pointer flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1.5 hover:border-emerald-400 hover:shadow-xl"
             >
               {/* Image & Badges Banner */}
-              <div className="relative h-52 w-full overflow-hidden bg-slate-100">
-                <img
-                  src={
-                    venue.images && venue.images.length > 0
-                      ? venue.images[0]
-                      : getFallbackImageForUrl(venue.id, venue.sportCategories?.[0])
-                  }
-                  alt={venue.name}
-                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
-                  onError={handleImageError}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent" />
+              <div className="relative h-44 w-full overflow-hidden bg-gradient-to-br from-emerald-900 via-slate-900 to-slate-950 p-4 flex flex-col justify-between">
+                {venue.images && venue.images.length > 0 ? (
+                  <>
+                    <img
+                      src={venue.images[0]}
+                      alt={venue.name}
+                      className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                      onError={handleImageError}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent" />
+                  </>
+                ) : (
+                  <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-emerald-800/40 via-slate-900 to-slate-950" />
+                )}
 
                 {/* Top badges */}
-                <div className="absolute left-3 top-3 flex flex-wrap gap-1.5">
-                  {venue.isPopular && (
-                    <span className="rounded-full bg-slate-900/80 px-2.5 py-1 text-[11px] font-bold text-white backdrop-blur-md">
-                      🔥 Terpopuler
-                    </span>
-                  )}
-                  {venue.isPromo && (
-                    <span className="rounded-full bg-emerald-600 px-2.5 py-1 text-[11px] font-bold text-white shadow">
-                      {venue.promoBadge || 'Diskon Aktif'}
-                    </span>
-                  )}
-                </div>
-
-                {/* Distance pill */}
-                <div className="absolute right-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-[11px] font-bold text-slate-800 backdrop-blur-md">
-                  📍 {venue.distanceKm} km
-                </div>
-
-                {/* Sport Type pills at bottom of image */}
-                <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between">
-                  <div className="flex flex-wrap gap-1">
-                    {venue.sportTypes.map((st) => (
-                      <span
-                        key={st}
-                        className="rounded-md bg-emerald-500/90 px-2 py-0.5 text-[10px] font-bold uppercase text-white backdrop-blur-md"
-                      >
-                        {st}
+                <div className="relative z-10 flex flex-wrap items-center justify-between gap-1.5 w-full">
+                  <div className="flex flex-wrap gap-1.5">
+                    {venue.isPopular && (
+                      <span className="rounded-full bg-slate-900/80 px-2.5 py-1 text-[11px] font-bold text-white backdrop-blur-md border border-white/10">
+                        🔥 Terpopuler
                       </span>
-                    ))}
+                    )}
+                    {venue.isPromo && (
+                      <span className="rounded-full bg-emerald-600 px-2.5 py-1 text-[11px] font-bold text-white shadow">
+                        {venue.promoBadge || 'Diskon Aktif'}
+                      </span>
+                    )}
                   </div>
-                  <div className="flex items-center gap-1 rounded-md bg-slate-900/80 px-2 py-0.5 text-xs font-bold text-amber-400 backdrop-blur-md">
-                    <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
-                    <span>{venue.rating}</span>
-                    <span className="text-[10px] text-slate-300">({venue.reviewCount})</span>
+                  {/* Distance pill */}
+                  <div className="rounded-full bg-white/90 px-2.5 py-1 text-[11px] font-bold text-slate-800 backdrop-blur-md">
+                    📍 {venue.distanceKm} km
                   </div>
                 </div>
+
+                {/* Sport Type pills at bottom of banner if image exists */}
+                {venue.images && venue.images.length > 0 && (
+                  <div className="relative z-10 flex items-center justify-between mt-auto">
+                    <div className="flex flex-wrap gap-1">
+                      {venue.sportTypes.map((st) => (
+                        <span
+                          key={st}
+                          className="rounded-md bg-emerald-500/90 px-2 py-0.5 text-[10px] font-bold uppercase text-white backdrop-blur-md"
+                        >
+                          {st}
+                        </span>
+                      ))}
+                    </div>
+                    <div className="flex items-center gap-1 rounded-md bg-slate-900/80 px-2 py-0.5 text-xs font-bold text-amber-400 backdrop-blur-md">
+                      <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
+                      <span>{venue.rating}</span>
+                      <span className="text-[10px] text-slate-300">({venue.reviewCount})</span>
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Card Body */}

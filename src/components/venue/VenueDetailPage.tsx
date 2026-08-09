@@ -188,7 +188,7 @@ export const VenueDetailPage: React.FC = () => {
               src={
                 selectedVenue.images && selectedVenue.images.length > 0
                   ? selectedVenue.images[mainImageIndex] || selectedVenue.images[0]
-                  : getFallbackImageForUrl(selectedVenue.id, selectedVenue.sportCategories?.[0])
+                  : ''
               }
               alt={selectedVenue.name}
               className="h-full w-full object-cover object-center transition-opacity duration-300"
