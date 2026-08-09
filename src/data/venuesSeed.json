@@ -14,7 +14,10 @@
     "distanceKm": 1.2,
     "description": "Stadion megah berstandar nasional yang siap mendukung pertandingan sepak bola Anda, baik untuk laga persahabatan, amatir, maupun profesional. Dilengkapi fasilitas tribun lengkap.",
     "openingHours": "08:00 - 22:00 WIB",
-    "images": [],
+    "images": [
+      "/images/Stadion-1.jpg",
+      "/images/stadion-2.png"
+    ],
     "rating": 4.95,
     "reviewCount": 210,
     "facilities": [
@@ -132,7 +135,10 @@
     "distanceKm": 1.5,
     "description": "Lapangan basket indoor dengan kualitas lantai premium untuk pantulan bola yang maksimal.",
     "openingHours": "08:00 - 20:00 WIB",
-    "images": [],
+    "images": [
+      "/images/gor-basket-1.png",
+      "/images/gor-basket-2.png"
+    ],
     "rating": 4.8,
     "reviewCount": 95,
     "facilities": [
@@ -193,7 +199,10 @@
     "distanceKm": 1.6,
     "description": "Area indoor yang nyaman dan bebas dari gangguan angin, memastikan permainan voli Anda berjalan optimal.",
     "openingHours": "08:00 - 20:00 WIB",
-    "images": [],
+    "images": [
+      "/images/gor-voli-1.jpeg",
+      "/images/gor-voli-2.jpeg"
+    ],
     "rating": 4.75,
     "reviewCount": 68,
     "facilities": [
@@ -243,7 +252,10 @@
     "distanceKm": 1.7,
     "description": "Fasilitas lapangan bulu tangkis standar dengan pencahayaan terang dan sirkulasi udara yang baik.",
     "openingHours": "08:00 - 20:00 WIB",
-    "images": [],
+    "images": [
+      "/images/badminton-1.jpeg",
+      "/images/badminton-2.jpeg"
+    ],
     "rating": 4.85,
     "reviewCount": 112,
     "facilities": [
@@ -306,7 +318,10 @@
     "distanceKm": 1.4,
     "description": "Fasilitas olahraga menembak yang aman dan terstandarisasi. Cocok untuk melatih fokus dan ketangkasan.",
     "openingHours": "08:00 - 20:00 WIB",
-    "images": [],
+    "images": [
+      "/images/Shooter-1.jpg",
+      "/images/Shooter-2.jpeg"
+    ],
     "rating": 4.8,
     "reviewCount": 42,
     "facilities": [
@@ -445,7 +460,10 @@
     "distanceKm": 4.5,
     "description": "Fasilitas futsal indoor dengan permukaan lapangan berkualitas untuk kelancaran dan keamanan permainan.",
     "openingHours": "08:00 - 22:00 WIB",
-    "images": [],
+    "images": [
+      "/images/gor-futsal-1.jpg",
+      "/images/gor-futsal-2.jpg"
+    ],
     "rating": 4.9,
     "reviewCount": 180,
     "facilities": [
@@ -529,7 +547,10 @@
     "distanceKm": 5.2,
     "description": "Lapangan mini soccer dengan rumput sintetis premium yang nyaman untuk permainan tempo cepat.",
     "openingHours": "08:00 - 22:00 WIB",
-    "images": [],
+    "images": [
+      "/images/Minisoccer-1.jpeg",
+      "/images/Minisoccer-2.jpeg"
+    ],
     "rating": 4.85,
     "reviewCount": 140,
     "facilities": [
@@ -599,7 +620,10 @@
     "distanceKm": 3.1,
     "description": "Arena khusus yang dirancang dengan lintasan mulus dan standar keamanan mumpuni untuk olahraga roller sport.",
     "openingHours": "08:00 - 20:00 WIB",
-    "images": [],
+    "images": [
+      "/images/rollersport-1.jpeg",
+      "/images/rollersport-2.jpeg"
+    ],
     "rating": 4.8,
     "reviewCount": 77,
     "facilities": [
@@ -667,7 +691,10 @@
     "distanceKm": 1.8,
     "description": "Kolam renang berstandar yang kebersihan airnya selalu terjaga.",
     "openingHours": "08:00 - 18:00 WIB",
-    "images": [],
+    "images": [
+      "/images/renang-1.jpeg",
+      "/images/renang-2.jpeg"
+    ],
     "rating": 4.9,
     "reviewCount": 165,
     "facilities": [
@@ -737,7 +764,10 @@
     "distanceKm": 1.9,
     "description": "Fasilitas lapangan squash dengan dinding dan lantai standar, cocok untuk latihan dan pertandingan.",
     "openingHours": "08:00 - 20:00 WIB",
-    "images": [],
+    "images": [
+      "/images/Squash-1.jpeg",
+      "/images/Squash-2.jpeg"
+    ],
     "rating": 4.8,
     "reviewCount": 89,
     "facilities": [
@@ -808,7 +838,10 @@
     "distanceKm": 1.5,
     "description": "Fasilitas skatepark outdoor Wibawa Mukti dengan rintangan komplit (bowl, street course, rail, & ramp) berstandar olahraga ekstrem untuk skateboard, roller skate, dan BMX.",
     "openingHours": "08:00 - 22:00 WIB",
-    "images": [],
+    "images": [
+      "/images/Skatepark-1.jpeg",
+      "/images/Skatepark-2.jpeg"
+    ],
     "rating": 4.8,
     "reviewCount": 35,
     "facilities": [
