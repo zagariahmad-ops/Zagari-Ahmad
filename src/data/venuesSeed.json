@@ -1,0 +1,885 @@
+[
+  {
+    "id": "venue-wibawa-mukti-stadion",
+    "name": "Stadion Wibawa Mukti Football",
+    "slug": "lapangan-utama-wibawa-mukti-stadion",
+    "sportTypes": [
+      "SEPAK_BOLA",
+      "MINI_SOCCER"
+    ],
+    "city": "Cikarang",
+    "address": "Jl. Science Boulevard, Sertajaya, Kec. Cikarang Tim., Kabupaten Bekasi, Jawa Barat",
+    "lat": -6.3025,
+    "lng": 107.1681,
+    "distanceKm": 1.2,
+    "description": "Stadion megah berstandar nasional yang siap mendukung pertandingan sepak bola Anda, baik untuk laga persahabatan, amatir, maupun profesional. Dilengkapi fasilitas tribun lengkap.",
+    "openingHours": "08:00 - 22:00 WIB",
+    "images": [
+      "/images/stadion-1.jpg",
+      "/images/stadion-2.png"
+    ],
+    "rating": 4.95,
+    "reviewCount": 210,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Tribun Penonton",
+      "Loker Pakaian",
+      "Mushola",
+      "Kantin / Cafe"
+    ],
+    "minPrice": 40000000,
+    "maxPrice": 88000000,
+    "isPopular": true,
+    "isPromo": false,
+    "ownerId": "mitra-1",
+    "pricingTiers": [
+      {
+        "id": "stadion-1",
+        "categoryLabel": "Sosial (Tanpa Penonton)",
+        "categoryType": "STADION_SOSIAL",
+        "priceSiang": 40000000,
+        "priceMalam": 40000000,
+        "unit": "PER_PERTANDINGAN",
+        "description": "Tarif flat Rp40 Juta / pertandingan (Tanpa Penonton)",
+        "isDefault": true
+      },
+      {
+        "id": "stadion-2",
+        "categoryLabel": "Lokal (Tanpa Penonton)",
+        "categoryType": "STADION_LOKAL",
+        "priceSiang": 45000000,
+        "priceMalam": 50000000,
+        "unit": "PER_PERTANDINGAN",
+        "description": "Siang Rp45 Juta | Malam Rp50 Juta (Tanpa Penonton)"
+      },
+      {
+        "id": "stadion-3",
+        "categoryLabel": "Amatir (Tanpa Penonton)",
+        "categoryType": "STADION_AMATIR",
+        "priceSiang": 55000000,
+        "priceMalam": 60000000,
+        "unit": "PER_PERTANDINGAN",
+        "description": "Siang Rp55 Juta | Malam Rp60 Juta (Tanpa Penonton)"
+      },
+      {
+        "id": "stadion-4",
+        "categoryLabel": "Profesional (Tanpa Penonton)",
+        "categoryType": "STADION_PROFESIONAL",
+        "priceSiang": 60000000,
+        "priceMalam": 66000000,
+        "unit": "PER_PERTANDINGAN",
+        "description": "Siang Rp60 Juta | Malam Rp66 Juta (Tanpa Penonton)"
+      },
+      {
+        "id": "stadion-5",
+        "categoryLabel": "Sosial (Dengan Penonton)",
+        "categoryType": "STADION_SOSIAL",
+        "priceSiang": 50000000,
+        "priceMalam": 50000000,
+        "unit": "PER_PERTANDINGAN",
+        "description": "Tarif flat Rp50 Juta / pertandingan (Dengan Penonton)"
+      },
+      {
+        "id": "stadion-6",
+        "categoryLabel": "Lokal (Dengan Penonton)",
+        "categoryType": "STADION_LOKAL",
+        "priceSiang": 55000000,
+        "priceMalam": 55000000,
+        "unit": "PER_PERTANDINGAN",
+        "description": "Siang & Malam Rp55 Juta / pertandingan (+15% Hari Libur)"
+      },
+      {
+        "id": "stadion-7",
+        "categoryLabel": "Amatir (Dengan Penonton)",
+        "categoryType": "STADION_AMATIR",
+        "priceSiang": 55000000,
+        "priceMalam": 60000000,
+        "unit": "PER_PERTANDINGAN",
+        "description": "Siang Rp55 Juta | Malam Rp60 Juta (+15% Hari Libur)"
+      },
+      {
+        "id": "stadion-8",
+        "categoryLabel": "Profesional (Dengan Penonton)",
+        "categoryType": "STADION_PROFESIONAL",
+        "priceSiang": 80000000,
+        "priceMalam": 88000000,
+        "unit": "PER_PERTANDINGAN",
+        "description": "Siang Rp80 Juta | Malam Rp88 Juta (+15% Hari Libur)"
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-stadion-utama",
+        "venueId": "venue-wibawa-mukti-stadion",
+        "name": "Stadion Utama Wibawa Mukti - Rumput Alami",
+        "sportType": "SEPAK_BOLA",
+        "type": "Outdoor",
+        "floorType": "Rumput Alami FIFA Grade",
+        "priceNonPeak": 40000000,
+        "pricePeak": 50000000
+      }
+    ]
+  },
+  {
+    "id": "venue-basket-1",
+    "name": "GOR Tambun",
+    "slug": "gor-basket-wibawa-mukti",
+    "sportTypes": [
+      "BASKET"
+    ],
+    "city": "Cikarang",
+    "address": "Komplek Stadion Wibawa Mukti, Sertajaya, Cikarang Timur, Kabupaten Bekasi",
+    "lat": -6.303,
+    "lng": 107.1685,
+    "distanceKm": 1.5,
+    "description": "Lapangan basket indoor dengan kualitas lantai premium untuk pantulan bola yang maksimal.",
+    "openingHours": "08:00 - 20:00 WIB",
+    "images": [
+      "/images/gor-basket-1.png",
+      "/images/gor-basket-2.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 95,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Loker Pakaian",
+      "Mushola"
+    ],
+    "minPrice": 20000,
+    "maxPrice": 35000,
+    "isPopular": true,
+    "ownerId": "mitra-1",
+    "pricingTiers": [
+      {
+        "id": "basket-umum",
+        "categoryLabel": "Umum / Klub",
+        "categoryType": "UMUM_KLUB",
+        "priceSiang": 30000,
+        "priceMalam": 35000,
+        "unit": "PER_JAM",
+        "description": "Siang (08.00-17.00): Rp30.000/jam | Malam (18.00-20.00): Rp35.000/jam",
+        "isDefault": true
+      },
+      {
+        "id": "basket-sekolah",
+        "categoryLabel": "Sekolah / PT",
+        "categoryType": "SEKOLAH_PT",
+        "priceSiang": 20000,
+        "priceMalam": 30000,
+        "unit": "PER_JAM",
+        "description": "Siang (08.00-17.00): Rp20.000/jam | Malam (18.00-20.00): Rp30.000/jam"
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-basket-gor",
+        "venueId": "venue-basket-1",
+        "name": "Court Indoor - Kayu Maple Premium",
+        "sportType": "BASKET",
+        "type": "Indoor",
+        "floorType": "Parquet Maple Wood",
+        "priceNonPeak": 30000,
+        "pricePeak": 35000
+      }
+    ]
+  },
+  {
+    "id": "venue-wibawa-mukti-voli",
+    "name": "GOR Tambun",
+    "slug": "gor-bola-voli-wibawa-mukti",
+    "sportTypes": [
+      "VOLI"
+    ],
+    "city": "Cikarang",
+    "address": "Komplek Stadion Wibawa Mukti, Sertajaya, Cikarang Timur, Kabupaten Bekasi",
+    "lat": -6.3032,
+    "lng": 107.1689,
+    "distanceKm": 1.6,
+    "description": "Area indoor yang nyaman dan bebas dari gangguan angin, memastikan permainan voli Anda berjalan optimal.",
+    "openingHours": "08:00 - 20:00 WIB",
+    "images": [
+      "/images/gor-voli-1.jpeg",
+      "/images/gor-voli-2.jpeg"
+    ],
+    "rating": 4.75,
+    "reviewCount": 68,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Mushola"
+    ],
+    "minPrice": 30000,
+    "maxPrice": 35000,
+    "ownerId": "mitra-1",
+    "pricingTiers": [
+      {
+        "id": "voli-umum",
+        "categoryLabel": "Umum / Klub / Sekolah",
+        "categoryType": "UMUM_KLUB",
+        "priceSiang": 30000,
+        "priceMalam": 35000,
+        "unit": "PER_JAM",
+        "description": "Siang 08.00-17.00: Rp30.000/jam | Malam 18.00-20.00: Rp35.000/jam",
+        "isDefault": true
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-voli-1",
+        "venueId": "venue-wibawa-mukti-voli",
+        "name": "Lapangan Voli A - Vinyl Standard Pro",
+        "sportType": "VOLI",
+        "type": "Indoor",
+        "floorType": "Vinyl Pro",
+        "priceNonPeak": 30000,
+        "pricePeak": 35000
+      }
+    ]
+  },
+  {
+    "id": "venue-badminton-1",
+    "name": "GSG Stadion Wibawa Mukti",
+    "slug": "lapangan-badminton-wibawa-mukti",
+    "sportTypes": [
+      "BADMINTON"
+    ],
+    "city": "Cikarang",
+    "address": "Komplek GOR Wibawa Mukti, Cikarang Timur, Kabupaten Bekasi",
+    "lat": -6.3035,
+    "lng": 107.169,
+    "distanceKm": 1.7,
+    "description": "Fasilitas lapangan bulu tangkis standar dengan pencahayaan terang dan sirkulasi udara yang baik.",
+    "openingHours": "08:00 - 20:00 WIB",
+    "images": [
+      "/images/badminton-1.jpeg",
+      "/images/badminton-2.jpeg"
+    ],
+    "rating": 4.85,
+    "reviewCount": 112,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Kantin / Cafe",
+      "Loker Pakaian",
+      "Mushola"
+    ],
+    "minPrice": 50000,
+    "maxPrice": 50000,
+    "isPopular": true,
+    "ownerId": "mitra-2",
+    "pricingTiers": [
+      {
+        "id": "badminton-flat",
+        "categoryLabel": "Tarif Flat (Semua Waktu)",
+        "categoryType": "UMUM_KLUB",
+        "priceSiang": 50000,
+        "priceMalam": 50000,
+        "unit": "PER_JAM",
+        "description": "Tarif flat Rp50.000/jam",
+        "isDefault": true
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-badminton-1",
+        "venueId": "venue-badminton-1",
+        "name": "Court 1 - Karpet Vinyl Yonex",
+        "sportType": "BADMINTON",
+        "type": "Indoor",
+        "floorType": "Karpet Vinyl Yonex",
+        "priceNonPeak": 50000,
+        "pricePeak": 50000
+      },
+      {
+        "id": "field-badminton-2",
+        "venueId": "venue-badminton-1",
+        "name": "Court 2 - Karpet Vinyl Yonex",
+        "sportType": "BADMINTON",
+        "type": "Indoor",
+        "floorType": "Karpet Vinyl Yonex",
+        "priceNonPeak": 50000,
+        "pricePeak": 50000
+      }
+    ]
+  },
+  {
+    "id": "venue-wibawa-mukti-menembak",
+    "name": "Shooter Wibawa Mukti",
+    "slug": "venue-menembak-wibawa-mukti",
+    "sportTypes": [
+      "MENEMBAK"
+    ],
+    "city": "Cikarang",
+    "address": "Komplek Stadion Wibawa Mukti, Sertajaya, Cikarang Timur, Kabupaten Bekasi",
+    "lat": -6.302,
+    "lng": 107.1675,
+    "distanceKm": 1.4,
+    "description": "Fasilitas olahraga menembak yang aman dan terstandarisasi. Cocok untuk melatih fokus dan ketangkasan.",
+    "openingHours": "08:00 - 20:00 WIB",
+    "images": [
+      "/images/shooter-1.jpg",
+      "/images/shooter-2.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 42,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Loker Pakaian"
+    ],
+    "minPrice": 15000,
+    "maxPrice": 40000,
+    "ownerId": "mitra-1",
+    "pricingTiers": [
+      {
+        "id": "menembak-individu",
+        "categoryLabel": "Individu",
+        "categoryType": "INDIVIDU",
+        "priceSiang": 25000,
+        "priceMalam": 25000,
+        "unit": "PER_JAM",
+        "description": "Tarif Individu Rp25.000/jam",
+        "isDefault": true
+      },
+      {
+        "id": "menembak-klub",
+        "categoryLabel": "Klub",
+        "categoryType": "UMUM_KLUB",
+        "priceSiang": 25000,
+        "priceMalam": 40000,
+        "unit": "PER_JAM",
+        "description": "Siang Rp25.000/jam | Malam Rp40.000/jam"
+      },
+      {
+        "id": "menembak-sekolah",
+        "categoryLabel": "Sekolah / PT",
+        "categoryType": "SEKOLAH_PT",
+        "priceSiang": 15000,
+        "priceMalam": 25000,
+        "unit": "PER_JAM",
+        "description": "Siang Rp15.000/jam | Malam Rp25.000/jam"
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-menembak-1",
+        "venueId": "venue-wibawa-mukti-menembak",
+        "name": "Shooting Range 10M / 25M",
+        "sportType": "MENEMBAK",
+        "type": "Indoor",
+        "floorType": "Target Lane Standard",
+        "priceNonPeak": 25000,
+        "pricePeak": 40000
+      }
+    ]
+  },
+  {
+    "id": "venue-wibawa-mukti-atletik",
+    "name": "Track Atletik Stadion Wibawa Mukti",
+    "slug": "lintasan-atletik-wibawa-mukti",
+    "sportTypes": [
+      "ATLETIK"
+    ],
+    "city": "Cikarang",
+    "address": "Komplek Stadion Wibawa Mukti, Cikarang Timur, Kabupaten Bekasi",
+    "lat": -6.3025,
+    "lng": 107.1681,
+    "distanceKm": 1.2,
+    "description": "Running track berkualitas tinggi yang mengelilingi stadion utama.",
+    "openingHours": "06:00 - 20:00 WIB",
+    "images": [
+      "/images/atletik-1.jpeg",
+      "/images/atletik-2.jpeg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 130,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Tribun Penonton"
+    ],
+    "minPrice": 15000,
+    "maxPrice": 30000,
+    "ownerId": "mitra-1",
+    "pricingTiers": [
+      {
+        "id": "atletik-individu",
+        "categoryLabel": "Individu / Perorangan",
+        "categoryType": "INDIVIDU",
+        "priceSiang": 15000,
+        "priceMalam": 15000,
+        "unit": "PER_JAM",
+        "description": "Tarif Individu Rp15.000/jam",
+        "isDefault": true
+      },
+      {
+        "id": "atletik-klub",
+        "categoryLabel": "Klub / Umum",
+        "categoryType": "UMUM_KLUB",
+        "priceSiang": 20000,
+        "priceMalam": 30000,
+        "unit": "PER_JAM",
+        "description": "Siang Rp20.000/jam | Malam Rp30.000/jam"
+      },
+      {
+        "id": "atletik-sekolah",
+        "categoryLabel": "Sekolah / PT",
+        "categoryType": "SEKOLAH_PT",
+        "priceSiang": 15000,
+        "priceMalam": 25000,
+        "unit": "PER_JAM",
+        "description": "Siang Rp15.000/jam | Malam Rp25.000/jam"
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-atletik-1",
+        "venueId": "venue-wibawa-mukti-atletik",
+        "name": "Running Track 400M - Rubber Synthetics",
+        "sportType": "ATLETIK",
+        "type": "Outdoor",
+        "floorType": "Tartar Rubber Track",
+        "priceNonPeak": 15000,
+        "pricePeak": 30000
+      }
+    ]
+  },
+  {
+    "id": "venue-futsal-1",
+    "name": "GOR Futsal Grand Wisata",
+    "slug": "gor-futsal-grand-wisata",
+    "sportTypes": [
+      "FUTSAL"
+    ],
+    "city": "Bekasi",
+    "address": "Kawasan Grand Wisata, Lambangsari, Kec. Tambun Sel., Kabupaten Bekasi",
+    "lat": -6.275,
+    "lng": 107.033,
+    "distanceKm": 4.5,
+    "description": "Fasilitas futsal indoor dengan permukaan lapangan berkualitas untuk kelancaran dan keamanan permainan.",
+    "openingHours": "08:00 - 22:00 WIB",
+    "images": [
+      "/images/gor-futsal-1.jpg",
+      "/images/gor-futsal-2.jpg",
+      "/images/gor-futsal-3.jpg",
+      "/images/gor-futsal-4.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 180,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Kantin / Cafe",
+      "Tribun Penonton",
+      "Mushola"
+    ],
+    "minPrice": 100000,
+    "maxPrice": 2500000,
+    "isPopular": true,
+    "isPromo": true,
+    "promoBadge": "Diskon Klub & Sekolah",
+    "ownerId": "mitra-1",
+    "pricingTiers": [
+      {
+        "id": "gw-futsal-klub",
+        "categoryLabel": "Klub / Umum",
+        "categoryType": "UMUM_KLUB",
+        "priceSiang": 125000,
+        "priceMalam": 150000,
+        "unit": "PER_JAM",
+        "description": "08.00–17.00: Rp125.000/jam | 18.00–20.00: Rp150.000/jam",
+        "isDefault": true
+      },
+      {
+        "id": "gw-futsal-sekolah",
+        "categoryLabel": "Sekolah / PT",
+        "categoryType": "SEKOLAH_PT",
+        "priceSiang": 100000,
+        "priceMalam": 120000,
+        "unit": "PER_JAM",
+        "description": "08.00–17.00: Rp100.000/jam | 18.00–20.00: Rp120.000/jam"
+      },
+      {
+        "id": "gw-futsal-event",
+        "categoryLabel": "Event / Kompetisi (Sewa Seharian)",
+        "categoryType": "EVENT_KOMPETISI",
+        "priceSiang": 2500000,
+        "priceMalam": 2500000,
+        "unit": "PER_HARI",
+        "description": "Tarif sewa full hari Rp2.500.000/hari"
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-1",
+        "venueId": "venue-futsal-1",
+        "name": "Lapangan A - Rumput Sintetis Premium",
+        "sportType": "FUTSAL",
+        "type": "Indoor",
+        "floorType": "Rumput Sintetis Pro",
+        "priceNonPeak": 125000,
+        "pricePeak": 150000
+      },
+      {
+        "id": "field-2",
+        "venueId": "venue-futsal-1",
+        "name": "Lapangan B - Interlock Vinyl",
+        "sportType": "FUTSAL",
+        "type": "Indoor",
+        "floorType": "Interlock Pro",
+        "priceNonPeak": 125000,
+        "pricePeak": 150000
+      }
+    ]
+  },
+  {
+    "id": "venue-minisoccer-sukatani",
+    "name": "Lapangan Bola Kecamatan Disbudpora",
+    "slug": "lapangan-mini-soccer-sukatani",
+    "sportTypes": [
+      "MINI_SOCCER",
+      "FUTSAL"
+    ],
+    "city": "Cikarang",
+    "address": "Jl. Raya Sukatani, Kec. Sukatani, Kabupaten Bekasi, Jawa Barat",
+    "lat": -6.185,
+    "lng": 107.183,
+    "distanceKm": 5.2,
+    "description": "Lapangan mini soccer dengan rumput sintetis premium yang nyaman untuk permainan tempo cepat.",
+    "openingHours": "08:00 - 22:00 WIB",
+    "images": [
+      "/images/minisoccer-1.jpeg",
+      "/images/minisoccer-2.jpeg"
+    ],
+    "rating": 4.85,
+    "reviewCount": 140,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Kantin / Cafe",
+      "Tribun Penonton"
+    ],
+    "minPrice": 50000,
+    "maxPrice": 2500000,
+    "isPopular": true,
+    "ownerId": "mitra-1",
+    "pricingTiers": [
+      {
+        "id": "sukatani-klub",
+        "categoryLabel": "Klub / Umum",
+        "categoryType": "UMUM_KLUB",
+        "priceSiang": 50000,
+        "priceMalam": 75000,
+        "unit": "PER_JAM",
+        "description": "08.00–17.00: Rp50.000/jam | 18.00–20.00: Rp75.000/jam",
+        "isDefault": true
+      },
+      {
+        "id": "sukatani-sekolah",
+        "categoryLabel": "Sekolah / PT",
+        "categoryType": "SEKOLAH_PT",
+        "priceSiang": 75000,
+        "priceMalam": 100000,
+        "unit": "PER_JAM",
+        "description": "08.00–17.00: Rp75.000/jam | 18.00–20.00: Rp100.000/jam"
+      },
+      {
+        "id": "sukatani-event",
+        "categoryLabel": "Event / Kompetisi (Sewa Seharian)",
+        "categoryType": "EVENT_KOMPETISI",
+        "priceSiang": 2500000,
+        "priceMalam": 2500000,
+        "unit": "PER_HARI",
+        "description": "Tarif sewa full hari Rp2.500.000/hari"
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-sukatani-1",
+        "venueId": "venue-minisoccer-sukatani",
+        "name": "Arena Mini Soccer 7v7 - Rumput Sintetis",
+        "sportType": "MINI_SOCCER",
+        "type": "Outdoor",
+        "floorType": "Rumput Sintetis Pro 50mm",
+        "priceNonPeak": 50000,
+        "pricePeak": 75000
+      }
+    ]
+  },
+  {
+    "id": "venue-roller-sport",
+    "name": "Roller Skate Grand Wisata",
+    "slug": "arena-sepatu-roda-skateboard-roller-sport",
+    "sportTypes": [
+      "ROLLER_SPORT"
+    ],
+    "city": "Bekasi",
+    "address": "Kawasan Grand Wisata & Stadion Wibawa Mukti, Bekasi",
+    "lat": -6.28,
+    "lng": 107.12,
+    "distanceKm": 3.1,
+    "description": "Arena khusus yang dirancang dengan lintasan mulus dan standar keamanan mumpuni untuk olahraga roller sport.",
+    "openingHours": "08:00 - 20:00 WIB",
+    "images": [
+      "/images/rollersport-1.jpeg",
+      "/images/rollersport-2.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 77,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Kantin / Cafe"
+    ],
+    "minPrice": 100000,
+    "maxPrice": 175000,
+    "ownerId": "mitra-2",
+    "pricingTiers": [
+      {
+        "id": "roller-individu",
+        "categoryLabel": "Individu / Perorangan",
+        "categoryType": "INDIVIDU",
+        "priceSiang": 100000,
+        "priceMalam": 100000,
+        "unit": "PER_JAM",
+        "description": "Tarif Individu Rp100.000/jam",
+        "isDefault": true
+      },
+      {
+        "id": "roller-klub",
+        "categoryLabel": "Klub / Umum",
+        "categoryType": "UMUM_KLUB",
+        "priceSiang": 150000,
+        "priceMalam": 175000,
+        "unit": "PER_JAM",
+        "description": "Siang Rp150.000/jam | Malam Rp175.000/jam"
+      },
+      {
+        "id": "roller-sekolah",
+        "categoryLabel": "Sekolah / PT",
+        "categoryType": "SEKOLAH_PT",
+        "priceSiang": 100000,
+        "priceMalam": 125000,
+        "unit": "PER_JAM",
+        "description": "Siang Rp100.000/jam | Malam Rp125.000/jam"
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-roller-1",
+        "venueId": "venue-roller-sport",
+        "name": "Smooth Cement Roller Rink Pro",
+        "sportType": "ROLLER_SPORT",
+        "type": "Outdoor",
+        "floorType": "Smooth Reinforced Concrete",
+        "priceNonPeak": 100000,
+        "pricePeak": 150000
+      }
+    ]
+  },
+  {
+    "id": "venue-wibawa-mukti-renang",
+    "name": "Aquatik Wibawa Mukti",
+    "slug": "kolam-renang-wibawa-mukti-aquatik",
+    "sportTypes": [
+      "RENANG"
+    ],
+    "city": "Cikarang",
+    "address": "Komplek Stadion Wibawa Mukti, Sertajaya, Cikarang Timur, Kabupaten Bekasi",
+    "lat": -6.3038,
+    "lng": 107.1695,
+    "distanceKm": 1.8,
+    "description": "Kolam renang berstandar yang kebersihan airnya selalu terjaga.",
+    "openingHours": "08:00 - 18:00 WIB",
+    "images": [
+      "/images/renang-1.jpeg",
+      "/images/renang-2.jpeg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 165,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Loker Pakaian",
+      "Kantin / Cafe"
+    ],
+    "minPrice": 10000,
+    "maxPrice": 3500000,
+    "isPopular": true,
+    "ownerId": "mitra-1",
+    "pricingTiers": [
+      {
+        "id": "renang-individu",
+        "categoryLabel": "Individu / Sekolah",
+        "categoryType": "INDIVIDU",
+        "priceSiang": 10000,
+        "priceMalam": 10000,
+        "unit": "PER_ORANG_JAM",
+        "description": "Rp10.000 / orang / jam",
+        "isDefault": true
+      },
+      {
+        "id": "renang-klub",
+        "categoryLabel": "Klub / Umum",
+        "categoryType": "UMUM_KLUB",
+        "priceSiang": 15000,
+        "priceMalam": 15000,
+        "unit": "PER_ORANG_JAM",
+        "description": "Rp15.000 / orang / jam"
+      },
+      {
+        "id": "renang-event",
+        "categoryLabel": "Event / Kompetisi (Sewa Seharian)",
+        "categoryType": "EVENT_KOMPETISI",
+        "priceSiang": 3500000,
+        "priceMalam": 3500000,
+        "unit": "PER_HARI",
+        "description": "Tarif sewa full hari Rp3.500.000 / hari"
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-renang-1",
+        "venueId": "venue-wibawa-mukti-renang",
+        "name": "Olympic Aquatik Pool 50M - 8 Line",
+        "sportType": "RENANG",
+        "type": "Semi-Indoor",
+        "floorType": "Keramik Aquatik Pro",
+        "priceNonPeak": 10000,
+        "pricePeak": 15000
+      }
+    ]
+  },
+  {
+    "id": "venue-squash-1",
+    "name": "Squash Court Wibawa Mukti",
+    "slug": "lapangan-squash-wibawa-mukti",
+    "sportTypes": [
+      "SQUASH"
+    ],
+    "city": "Cikarang",
+    "address": "Komplek GSG / GOR Wibawa Mukti, Cikarang Timur, Kabupaten Bekasi",
+    "lat": -6.304,
+    "lng": 107.1698,
+    "distanceKm": 1.9,
+    "description": "Fasilitas lapangan squash dengan dinding dan lantai standar, cocok untuk latihan dan pertandingan.",
+    "openingHours": "08:00 - 20:00 WIB",
+    "images": [
+      "/images/squash-1.jpeg",
+      "/images/squash-2.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 89,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Tribun Penonton",
+      "Mushola"
+    ],
+    "minPrice": 20000,
+    "maxPrice": 75000,
+    "isPopular": true,
+    "ownerId": "mitra-2",
+    "pricingTiers": [
+      {
+        "id": "squash-klub",
+        "categoryLabel": "Klub / Umum",
+        "categoryType": "UMUM_KLUB",
+        "priceSiang": 50000,
+        "priceMalam": 75000,
+        "unit": "PER_LAPANGAN_JAM",
+        "description": "08.00–17.00: Rp50.000/jam | 18.00–20.00: Rp75.000/jam/lapangan",
+        "isDefault": true
+      },
+      {
+        "id": "squash-sekolah",
+        "categoryLabel": "Sekolah / PT",
+        "categoryType": "SEKOLAH_PT",
+        "priceSiang": 20000,
+        "priceMalam": 30000,
+        "unit": "PER_LAPANGAN_JAM",
+        "description": "08.00–17.00: Rp20.000/jam | 18.00–20.00: Rp30.000/jam/lapangan"
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-squash-1",
+        "venueId": "venue-squash-1",
+        "name": "Squash Court 1",
+        "sportType": "SQUASH",
+        "type": "Indoor",
+        "floorType": "Parket Kayu",
+        "priceNonPeak": 50000,
+        "pricePeak": 75000
+      },
+      {
+        "id": "field-squash-2",
+        "venueId": "venue-squash-1",
+        "name": "Squash Court 2",
+        "sportType": "SQUASH",
+        "type": "Indoor",
+        "floorType": "Parket Kayu",
+        "priceNonPeak": 50000,
+        "pricePeak": 75000
+      }
+    ]
+  },
+  {
+    "id": "venue-skatepark-wibawa-mukti",
+    "name": "Skatepark Wibawa Mukti",
+    "slug": "skatepark-wibawa-mukti",
+    "sportTypes": [
+      "ROLLER_SPORT"
+    ],
+    "city": "Cikarang",
+    "address": "Kompleks Stadion Wibawa Mukti, Sertajaya, Kec. Cikarang Tim., Kabupaten Bekasi, Jawa Barat",
+    "lat": -6.3032,
+    "lng": 107.1685,
+    "distanceKm": 1.5,
+    "description": "Fasilitas skatepark outdoor Wibawa Mukti dengan rintangan komplit (bowl, street course, rail, & ramp) berstandar olahraga ekstrem untuk skateboard, roller skate, dan BMX.",
+    "openingHours": "08:00 - 22:00 WIB",
+    "images": [
+      "/images/skatepark-1.jpeg",
+      "/images/skatepark-2.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 35,
+    "facilities": [
+      "Parkir Luas",
+      "Toilet & Shower",
+      "Area Komunitas",
+      "Lighting Malam",
+      "Mushola"
+    ],
+    "minPrice": 100000,
+    "maxPrice": 100000,
+    "isPopular": true,
+    "ownerId": "mitra-2",
+    "pricingTiers": [
+      {
+        "id": "skatepark-umum",
+        "categoryLabel": "Umum / Perorangan",
+        "categoryType": "UMUM_KLUB",
+        "priceSiang": 100000,
+        "priceMalam": 100000,
+        "unit": "PER_JAM",
+        "description": "Tarif Sewa Skatepark Rp100.000/jam",
+        "isDefault": true
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-skatepark-1",
+        "venueId": "venue-skatepark-wibawa-mukti",
+        "name": "Arena Main Skatepark",
+        "sportType": "ROLLER_SPORT",
+        "type": "Outdoor",
+        "floorType": "Semen Halus Pro",
+        "priceNonPeak": 100000,
+        "pricePeak": 100000
+      }
+    ]
+  }
+]
