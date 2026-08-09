@@ -71,7 +71,7 @@ const AppContext = createContext<AppContextType | undefined>(undefined);
 const STORAGE_KEYS = {
   BOOKINGS: 'gelora_bookings_v3',
   REVIEWS: 'gelora_reviews_v3',
-  VENUES: 'gelora_venues_all_images_v400',
+  VENUES: 'gelora_venues_real_uploads_v500',
   MAINTENANCE_SLOTS: 'gelora_maintenance_v3',
 };
 
